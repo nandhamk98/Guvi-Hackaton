@@ -1,8 +1,8 @@
 //prep
 const data = document.querySelector('#data');
 const navigation = document.querySelector('#navigation');
-const baseUrl = 'http://makeup-api.herokuapp.com/api/v1/products.json';
-let itembaseUrl = 'http://makeup-api.herokuapp.com/api/v1/products';
+const baseUrl = 'https://makeup-api.herokuapp.com/api/v1/products.json';
+let itembaseUrl = 'https://makeup-api.herokuapp.com/api/v1/products';
 
 const navList = document.createElement('ul');
 const homeNav = document.createElement('li');
